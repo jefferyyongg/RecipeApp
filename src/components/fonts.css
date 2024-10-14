@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Poly Sans";
+  src: url("/path/to/PolySans-Regular.woff2") format("woff2"),
+    url("/path/to/PolySans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poly Sans";
+  src: url("/path/to/PolySans-Bold.woff2") format("woff2"),
+    url("/path/to/PolySans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Add more @font-face rules for other weights/styles if needed */
